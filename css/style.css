@@ -1,0 +1,160 @@
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+    
+    header {
+        background: url(../images/background.jpg);
+        height: 100vh;
+    }
+    
+    .header_title {
+        color: aliceblue;
+        text-align: center;
+        padding-top: 200px;
+        text-transform: uppercase;
+        font-size: 65px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .header_text {
+        color: aliceblue;
+        text-align: center;
+        font-size: 35px;
+        width: 450px;
+        margin: auto;
+        padding-top: 25px;
+    }
+    
+    main {
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    
+    main a {
+        text-transform: uppercase;
+    }
+    
+    main a:hover {
+        text-decoration: none;
+        color: #361f1f;
+    }
+    
+    .main_img {
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .img_discount {
+        position: absolute;
+        top: -18px;
+        left: -15px;
+        cursor: pointer;
+    }
+    
+    .buy {
+        text-align: center;
+        margin-top: 20px;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+    .img_sell {
+        width: 100%;
+    }
+    
+    .buy a {
+        color: black;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .bought {
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .bought a {
+        color: #ffffff;
+        background: linear-gradient(to left, #e9661a, #dd8500, #f7ce48);
+        padding: 20px 110px;
+        font-weight: 700;
+        font-size: 18px;
+        width: 100%;
+    }
+    
+    footer {
+        background: #312d2d;
+        height: 110px;
+    }
+    
+    .main_block {
+        margin-bottom: 50px;
+    }
+    
+    .footer_text {
+        color: rgb(255, 187, 0);
+        text-align: center;
+        padding: 20px 15px 10px 15px;
+        font-size: 18px;
+    }
+    
+    @media(max-width:1200px) {
+        .bought a {
+            padding: 20px 80px;
+            font-weight: 700;
+            font-size: 18px;
+            width: 100%;
+        }
+        .main_block {
+            margin-bottom: 50px;
+        }
+    }
+    
+    @media(max-width:460px) {
+        .header_title {
+            font-size: 35px;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header_text {
+            font-size: 20px;
+            width: 250px;
+            margin: auto;
+            padding-top: 25px;
+        }
+    }
+    
+    @media(max-width:440px) {
+        .bought a {
+            padding: 20px 80px;
+            font-weight: 700;
+            font-size: 16px;
+            width: 100%;
+        }
+        .img_discount {
+            position: absolute;
+            top: -20;
+            left: -25;
+            cursor: pointer;
+        }
+    }
+    
+    @media(max-width:320px) {
+        .img_discount {
+            position: absolute;
+            top: -35;
+            left: -45;
+            cursor: pointer;
+        }
+        .bought a {
+            padding: 10px 40px;
+            font-weight: 700;
+            font-size: 16px;
+            width: 100%;
+        }
+    }
